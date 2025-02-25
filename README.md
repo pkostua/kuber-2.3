@@ -4,7 +4,6 @@ https://github.com/netology-code/kuber-homeworks/blob/main/2.3/2.3.md
 ## Задание 1. Создать Deployment приложения и решить возникшую проблему с помощью ConfigMap. Добавить веб-страницу
 ### Манифест деплаймента
 ```
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -55,7 +54,6 @@ spec:
 ```
 ### Манифест ConfigMap для решения проблемы запуска
 ```
----
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -68,7 +66,6 @@ data:
 ```
 ### Манифест ConfigMap для веб страницы nginx
 ```
----
 apiVersion: v1
 kind: ConfigMap
 metadata:
