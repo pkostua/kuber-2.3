@@ -2,7 +2,7 @@
 https://github.com/netology-code/kuber-homeworks/blob/main/2.3/2.3.md
 
 ## Задание 1. Создать Deployment приложения и решить возникшую проблему с помощью ConfigMap. Добавить веб-страницу
-### Манифест деплаймента
+### Манифест деплoймента
 ```
 apiVersion: apps/v1
 kind: Deployment
